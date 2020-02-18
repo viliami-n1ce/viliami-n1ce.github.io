@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/app.css">
+    <nav>
+        <ul class="menu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+</head>
+<title> Technical Blog</title>
+<body>
+    <h1 style="text-align: center;font-family: Calibri;">Technical Blog</h1>
+    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Inline vs Inline-Block display in CSS</h2> 
+<p> In CSS, display can have values of inline,Inline-Block and block. Containers can be given the value of each of these 
+    to produce different effects.
+</p>
+<img src="https://i.stack.imgur.com/mGTYI.png" alt="block elements" id="inline"> 
+<p>Inline elements have left and right margins/padding, but not top and bottom margins/paddings.
+    This leades to inline overlapping with elements above and below it. They 
+    also allows other elements to sit to their left and right. They cannot have width or height set;
+    they keep deafult heigh and width and flow within the flow. 
+</p>
+<span> Code:</span>
+<code> .red boxes{
+    display:block
+}
+</code>
+<p>
+
+    Block elements, however, have all margins and padding and force a line break after the block element.
+    Blocks force a line break after the block, thus resulting in elements that are on top of each other.
+    If width is not defined, block elements gain full width of the page. 
+</p>
+<span> Code:</span>
+<code>
+    .red boxes{
+        display:inline
+    }
+</code>
+<p>
+    Inline-block elements allow other elements to sit to their left and right, however unlike inline elements 
+    they can have height and width set. They also have top and bottom margins and padding, and unlike 
+    block elements they do not force a line break and this allows elements to sit to their left and right. 
+</p>
+<span>Code:</span>
+<code> .red boxes{
+    display:inline-block
+}
+</code>
+
+
+
+
+
+
+</body>
